@@ -42,7 +42,7 @@ export class Tweet extends Component {
       likes,
       replies,
       parent,
-      id
+      id,
     } = tweet;
     return (
       <Link to={`/tweet/${id}`} className="tweet">
